@@ -1,0 +1,10 @@
+site_name: pytest-doctest-only
+site_description: A plugin to run only doctest
+site_author: Erez Amihud
+
+theme: readthedocs
+
+repo_url: https://github.com/erezamihud/pytest-doctest-only
+
+pages:
+- Home: index.md
