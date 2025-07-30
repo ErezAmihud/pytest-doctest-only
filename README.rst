@@ -21,7 +21,7 @@ A plugin to run only doctest tests
 Features
 --------
 
-* Add `--doctest-only` to run only doctest tests
+* Add ``--doctest-only`` to run only doctest tests
 
 
 Installation
@@ -35,8 +35,8 @@ You can install "pytest-doctest-only" via `pip`_ from `PyPI`_::
 Usage
 -----
 
-Run `pytest --doctest-only --doctest-modules`
-**NOTE** if you don't use `--doctest-modules` no doctest tests will be run.
+Run ``pytest --doctest-only --doctest-modules`` \
+**NOTE** if you don't use ``--doctest-modules`` no doctest tests will be run.
 
 Contributing
 ------------
