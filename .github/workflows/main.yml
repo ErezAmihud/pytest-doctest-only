@@ -1,6 +1,9 @@
 name: main
 
 on:
+  schedule:
+    # Runs every Monday at 01:00 UTC
+    - cron: '0 1 * * 1' 
   push:
     branches:
       - main
@@ -13,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ['3.8', '3.9', '3.10', '3.11', '3.12', 'pypy-3.8']
+        python-version: ['3.8', '3.9', '3.10', '3.11', '3.12', '3.13', 'pypy-3.8', '3.x']
     steps:
       - uses: actions/checkout@v4
 
